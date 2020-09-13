@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1>GAME MASTER</h1>
+      <nav>
+        <ul id='navigation'>
+          <li><a href='#'>HOME<a/></li>
+          <li><a href='#'>FEED</a></li>
+          <li><a href='#'>FORUM</a></li>
+          <li><a href='#'>FIND PLAYERS/PARITES</a></li>
+          <li><a href='#'>ABOUT</a></li>
+        </ul>
+        <ul id='log/reg'>
+          <li><a href='#'>Log in</a></li>
+          <li><a href='#'>Register</a></li>
+        </ul>
+        <ul id='profile'>
+          <li><a href='#'>Profile</a></li>
+          <li><a href='#'>Status</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      Area with form for forum thread creation.
+    </div>
+    <div id='PartyForm'>
+      <form>
+        <p>Party name</p><br>
+        <input type='text' name='partyName'>
+        <p>Game title</p><br>
+        <select name='GameTitles'>
+          <option value='DnD'>Dungeons & Dragons</option>
+          <option value='Pathfinder'>Pathfinder</option>
+        </select>
+        <p>Party description</p>
+        <textarea name="PartyDesc" rows="8" cols="80"></textarea>
+        <p>Player count</p>
+        <input type='number' name='playerCount' min='2' max='20'>
+        <p>Location(in text for testing will be replace by google maps)</p>
+        <input type='text' name='location'>
+        <input type='submit'>
+      </form>
+    </div>
+    <footer>
+      <ul id='socialLinks'>
+        <li>Social 1</li>
+        <li>Social 2</li>
+        <li>Social 3</li>
+        <li>Social 4</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan.</p>
+      <small>Copyright © 2020 Game Master. All Rights Reserved.</small>
+    </footer>
+  </body>
+</html>
